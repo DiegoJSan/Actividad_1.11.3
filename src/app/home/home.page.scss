@@ -25,3 +25,120 @@
 #container a {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 992px) {
+  ion-content {
+    --ion-background-color: #E5E7E9;
+  }
+
+  ion-card {
+    --ion-background-color: #CACFD2;
+    --ion-transition: --ion-background-color .5s;
+  }
+
+  ion-card:hover {
+    --ion-background-color: #cddf7c;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  ion-content {
+    --ion-background-color: #85929E ;
+  }
+
+  ion-card {
+    --ion-background-color: #5D6D7E;
+    --ion-transition: --ion-background-color .5s;
+  }
+
+  ion-card:hover {
+    --ion-background-color: #7bc0e7;
+  }
+
+  .tipo1 {
+    color: #000000;
+  }
+
+  .tipo2 {
+    color: #F7F9F9;
+  }
+
+  .tipo3 {
+    color: #D7DBDD;
+  }
+
+}
+
+@media only screen and (max-width: 200px) {
+  ion-content {
+    --ion-background-color: #FDFEFE;
+  }
+
+  ion-card {
+    --ion-background-color: #5D6D7E;
+    --ion-transition: --ion-background-color .5s;
+  }
+
+  ion-card:hover {
+    --ion-background-color: #d991eb;
+  }
+
+  .tipo1 {
+    color: #000000;
+  }
+
+  .tipo2 {
+    color: #F7F9F9;
+  }
+
+  .tipo3 {
+    display: none;
+  }
+  
+}
+
+@media only screen and (orientation: landscape) { /*Horizontal*/
+
+  ion-content {
+    --ion-background-color: lightblue;
+  }
+
+  ion-card {
+    --ion-background-color: #e9ecf0;
+    --ion-transition: --ion-background-color .5s;
+  }
+
+  ion-card:hover {
+    --ion-background-color: #acb3dd;
+  }
+
+}
+
+@media only screen and (orientation: portrait) { /* Vertical */
+  ion-content {
+    --ion-background-color: rgb(134, 212, 141);
+  }
+
+  ion-card {
+    --ion-background-color: #ade7b2;
+    --ion-transition: --ion-background-color .5s;
+  }
+
+  ion-card:hover {
+    --ion-background-color: #8ee972;
+  }
+
+  .tipo3 {
+    display: none;
+  }
+
+  ion-title {
+    display: none;
+  }
+
+  #p1 {
+    display: none; 
+  }
+
+}
