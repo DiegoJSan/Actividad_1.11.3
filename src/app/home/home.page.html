@@ -14,7 +14,7 @@
     <ion-grid>
       <ion-row>
         <ng-container *ngFor="let usuario of usuarios | async">
-          <ion-col *ngIf = "filtro== '' || usuario.first_name.startsWith(filtro)" size-xl="2" size-lg ="2" size-md="4" size-sm="6" size-xs="12">
+          <ion-col *ngIf = "filtro== '' || usuario.first_name.toLowerCase().startsWith(filtro.toLowerCase())" size-xl="2" size-lg ="2" size-md="4" size-sm="6" size-xs="12">
             <ion-card >
               <ion-card-content>
                 <ion-avatar>
@@ -31,7 +31,7 @@
           </ion-col>
         </ng-container>
         <ng-container *ngFor="let usuario of usuarios | async">
-          <ion-col *ngIf = "filtro== '' || usuario.gender.startsWith(filtro)" size-xl="2" size-lg ="2" size-md="4" size-sm="6" size-xs="12">
+          <ion-col *ngIf = "filtro== '' || usuario.gender.toLowerCase().startsWith(filtro.toLowerCase())" size-xl="2" size-lg ="2" size-md="4" size-sm="6" size-xs="12">
             <ion-card >
               <ion-card-content>
                 <ion-avatar>

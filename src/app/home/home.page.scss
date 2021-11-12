@@ -40,6 +40,10 @@
     --ion-background-color: #cddf7c;
   }
 
+  .tipo1 {
+    color: #5a4d4d;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -57,11 +61,11 @@
   }
 
   .tipo1 {
-    color: #000000;
+    color: #5a4d4d;
   }
 
   .tipo2 {
-    color: #F7F9F9;
+    color: #7f8181;
   }
 
   .tipo3 {
@@ -85,11 +89,11 @@
   }
 
   .tipo1 {
-    color: #000000;
+    color: #5a4d4d;
   }
 
   .tipo2 {
-    color: #F7F9F9;
+    color: #7f8181;
   }
 
   .tipo3 {
@@ -130,10 +134,6 @@
   }
 
   .tipo3 {
-    display: none;
-  }
-
-  ion-title {
     display: none;
   }
 
